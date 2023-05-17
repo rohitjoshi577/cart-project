@@ -1,0 +1,75 @@
+.tshirt-slider {
+  width: 75%;
+}
+
+@media screen and (min-width: 480px) {
+  .tshirt-slider {
+    width: 333px;
+  }
+}
+
+.slider-background1 {
+  background: rgb(201, 201, 201);
+  background: linear-gradient(
+    169deg,
+    rgba(201, 201, 201, 1) 0%,
+    rgba(146, 231, 220, 0.9976365546218487) 100%
+  );
+}
+
+.slider-background2 {
+  background: rgba(247, 187, 235, 0.5);
+  background: linear-gradient(
+    169deg,
+    rgba(240, 153, 223, 0.493) 0%,
+    rgba(146, 231, 199, 0.9976365546218487) 100%
+  );
+}
+
+.slider-background3 {
+  background: rgb(201, 201, 201);
+  background: linear-gradient(
+    169deg,
+    rgba(201, 201, 201, 1) 0%,
+    rgba(146, 231, 220, 0.9976365546218487) 100%
+  );
+}
+
+.slider-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-title {
+  font-family: "Teko", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.slider-subheading {
+  width: 80%;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  color: rgb(1, 50, 54);
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 350px) {
+  .slider-subheading {
+    width: 75%;
+  }
+}
+
+.slider-button {
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 75, 105);
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+}

@@ -1,0 +1,36 @@
+.search {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-family: "Teko", sans-serif;
+  padding-left: 10px;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.search-container {
+  margin-top: 80px;
+  background-color: rgb(0, 0, 2);
+}
+
+.mid-headings {
+  font-family: "Teko", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.sorter {
+  width: 30%;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  margin-left: 35%;
+  margin-bottom: 100px;
+}

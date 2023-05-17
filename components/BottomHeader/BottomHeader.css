@@ -1,0 +1,49 @@
+.bottom-header {
+  margin: 0 60px 0 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sticked-bottom-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 20;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.clear {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  .bottom-header {
+    margin: 0px 40px 0 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .bottom-header {
+    margin: 0 20px 0 20px;
+  }
+}

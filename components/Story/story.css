@@ -1,0 +1,61 @@
+.story-card-image {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 15px;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: rgb(247, 247, 247);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 770px) {
+  .story-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-story {
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.mid-heading-story {
+  font-family: "Teko", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.flex-like {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.favorite {
+  color: red;
+}
+
+.details {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+.author {
+  color: rgb(1, 135, 153);
+}
